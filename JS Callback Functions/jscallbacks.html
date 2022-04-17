@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Hollaback Functions"</title>
+
+    <link rel = "stylesheet"  href = "jscallbacks.css">
+
+</head>
+<body>
+    <button id="hollaback">Click here for a hollaback function!</button>
+    <h2>"What's that?!"</h2>
+
+    <script >
+        document.querySelector("#hollaback").addEventListener("click", function() {let header = document.querySelector("h2"); 
+        header.innerHTML = "I ain't no hollaback girl!"});
+    </script>
+</body>
+</html>
